@@ -9,6 +9,7 @@ import base.Setup;
 import pages.TablePage;
 
 public class TablePageTest extends Setup{
+  
   TablePage obj;
   @BeforeMethod
   public void init() {

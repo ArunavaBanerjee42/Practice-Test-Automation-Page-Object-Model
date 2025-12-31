@@ -193,7 +193,7 @@
 	at java.base/java.lang.Integer.parseInt(Integer.java:672)
 	at java.base/java.lang.Integer.parseInt(Integer.java:778)
 	at pages.TablePage.areAllEnrollmentsAtLeast(TablePage.java:201)
-	at test.TablePageTest.verifyMinEnrollments(TablePageTest.java:37)
+	at test.TablePageTest.verifyMinEnrollments(TablePageTest.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -204,28 +204,28 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.TablePageTest</span>
+              <span class="class-name">test.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBeginnerLevelOnly">
-                  </a> <!-- verifyBeginnerLevelOnly -->
-                  <span class="method-name">verifyBeginnerLevelOnly</span>
+                  <a name="negativePasswordTest">
+                  </a> <!-- negativePasswordTest -->
+                  <span class="method-name">negativePasswordTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLanguageFilter">
-                  </a> <!-- verifyLanguageFilter -->
-                  <span class="method-name">verifyLanguageFilter</span>
+                  <a name="negativeUsernameTest">
+                  </a> <!-- negativeUsernameTest -->
+                  <span class="method-name">negativeUsernameTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyNoResultsState">
-                  </a> <!-- verifyNoResultsState -->
-                  <span class="method-name">verifyNoResultsState</span>
+                  <a name="verifyLoginWithValidCredentials">
+                  </a> <!-- verifyLoginWithValidCredentials -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -277,28 +277,28 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.LoginPageTest</span>
+              <span class="class-name">test.TablePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="negativePasswordTest">
-                  </a> <!-- negativePasswordTest -->
-                  <span class="method-name">negativePasswordTest</span>
+                  <a name="verifyBeginnerLevelOnly">
+                  </a> <!-- verifyBeginnerLevelOnly -->
+                  <span class="method-name">verifyBeginnerLevelOnly</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="negativeUsernameTest">
-                  </a> <!-- negativeUsernameTest -->
-                  <span class="method-name">negativeUsernameTest</span>
+                  <a name="verifyLanguageFilter">
+                  </a> <!-- verifyLanguageFilter -->
+                  <span class="method-name">verifyLanguageFilter</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredentials">
-                  </a> <!-- verifyLoginWithValidCredentials -->
-                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <a name="verifyNoResultsState">
+                  </a> <!-- verifyNoResultsState -->
+                  <span class="method-name">verifyNoResultsState</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -314,21 +314,25 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;HomePageTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- HomePageTest --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;PracticePageTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.PracticePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- PracticePageTest --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;LoginPageTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LoginPageTest --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TablePageTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.TablePageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -383,47 +387,47 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyBeginnerLevelOnly')
 data.setCell(0, 2, 'test.TablePageTest')
-data.setCell(0, 3, 4948);
+data.setCell(0, 3, 5132);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyTestTableLink')
 data.setCell(1, 2, 'test.PracticePageTest')
-data.setCell(1, 3, 4940);
+data.setCell(1, 3, 4981);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyTestExceptionsLink')
 data.setCell(2, 2, 'test.PracticePageTest')
-data.setCell(2, 3, 4899);
+data.setCell(2, 3, 4911);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkHomePageButton')
-data.setCell(3, 2, 'test.HomePageTest')
-data.setCell(3, 3, 4898);
+data.setCell(3, 1, 'verifyLanguageFilter')
+data.setCell(3, 2, 'test.TablePageTest')
+data.setCell(3, 3, 4900);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyLanguageFilter')
+data.setCell(4, 1, 'verifyMinEnrollments')
 data.setCell(4, 2, 'test.TablePageTest')
-data.setCell(4, 3, 4805);
+data.setCell(4, 3, 4808);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyMinEnrollments')
-data.setCell(5, 2, 'test.TablePageTest')
-data.setCell(5, 3, 4791);
+data.setCell(5, 1, 'verifyTestLoginLink')
+data.setCell(5, 2, 'test.PracticePageTest')
+data.setCell(5, 3, 4693);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyTestLoginLink')
-data.setCell(6, 2, 'test.PracticePageTest')
-data.setCell(6, 3, 4658);
+data.setCell(6, 1, 'checkHomePageButton')
+data.setCell(6, 2, 'test.HomePageTest')
+data.setCell(6, 3, 4596);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyLoginWithValidCredentials')
 data.setCell(7, 2, 'test.LoginPageTest')
-data.setCell(7, 3, 1502);
+data.setCell(7, 3, 1719);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'negativeUsernameTest')
-data.setCell(8, 2, 'test.LoginPageTest')
-data.setCell(8, 3, 831);
+data.setCell(8, 1, 'verifyNoResultsState')
+data.setCell(8, 2, 'test.TablePageTest')
+data.setCell(8, 3, 860);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyNoResultsState')
-data.setCell(9, 2, 'test.TablePageTest')
-data.setCell(9, 3, 765);
+data.setCell(9, 1, 'negativeUsernameTest')
+data.setCell(9, 2, 'test.LoginPageTest')
+data.setCell(9, 3, 421);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'negativePasswordTest')
 data.setCell(10, 2, 'test.LoginPageTest')
-data.setCell(10, 3, 763);
+data.setCell(10, 3, 336);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -456,191 +460,191 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
+                <span class="method-name">setup(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">4967 ms</span>
+                <span class="method-start">15027 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkHomePageButton</span>
-                <span class="method-start">5018 ms</span>
+                <span class="method-start">15033 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9943 ms</span>
+                <span class="method-start">19637 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.PracticePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">14706 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">26082 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">18491 ms</span>
+                <span class="method-start">29754 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTestExceptionsLink</span>
-                <span class="method-start">19185 ms</span>
+                <span class="method-start">30357 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24087 ms</span>
+                <span class="method-start">35271 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">28636 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">39751 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">32051 ms</span>
+                <span class="method-start">43035 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTestLoginLink</span>
-                <span class="method-start">32684 ms</span>
+                <span class="method-start">43648 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37344 ms</span>
+                <span class="method-start">48345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">41742 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">52905 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">45171 ms</span>
+                <span class="method-start">56270 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTestTableLink</span>
-                <span class="method-start">45801 ms</span>
+                <span class="method-start">56914 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50747 ms</span>
+                <span class="method-start">61899 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">55170 ms</span>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">66376 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">58606 ms</span>
+                <span class="method-start">73820 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativePasswordTest</span>
-                <span class="method-start">59280 ms</span>
+                <span class="method-start">74560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60044 ms</span>
+                <span class="method-start">74899 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">64567 ms</span>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">86930 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">67983 ms</span>
+                <span class="method-start">94970 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeUsernameTest</span>
-                <span class="method-start">68607 ms</span>
+                <span class="method-start">95721 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69440 ms</span>
+                <span class="method-start">96146 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">73934 ms</span>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">102751 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">76239 ms</span>
+                <span class="method-start">110419 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginWithValidCredentials</span>
-                <span class="method-start">77377 ms</span>
+                <span class="method-start">111293 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78881 ms</span>
+                <span class="method-start">113016 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TablePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">83397 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">119797 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">87518 ms</span>
+                <span class="method-start">123302 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLanguageFilter</span>
-                <span class="method-start">88299 ms</span>
+                <span class="method-start">124029 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">93106 ms</span>
+                <span class="method-start">128931 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">97553 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">133404 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">100924 ms</span>
+                <span class="method-start">136610 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBeginnerLevelOnly</span>
-                <span class="method-start">101602 ms</span>
+                <span class="method-start">137271 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">106553 ms</span>
+                <span class="method-start">142407 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">111038 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">146930 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">114493 ms</span>
+                <span class="method-start">150289 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyMinEnrollments</span>
-                <span class="method-start">115285 ms</span>
+                <span class="method-start">151077 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">120081 ms</span>
+                <span class="method-start">155891 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">124558 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">160431 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">128096 ms</span>
+                <span class="method-start">163884 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyNoResultsState</span>
-                <span class="method-start">128809 ms</span>
+                <span class="method-start">164529 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">129577 ms</span>
+                <span class="method-start">165392 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
