@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  
+  <test name="HomePageTest">
+    <classes>
+      <class name="test.HomePageTest"/>
+    </classes>
+  </test> <!-- Test 1 -->
+  <test name="PracticePageTest">
+    <classes>
+      <class name="test.PracticePageTest"/>
+    </classes>
+  </test> <!-- Test 2 -->
+  <test name="LoginPageTest">
+    <classes>
+      <class name="test.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test 3-->
+  <test name="TablePageTest">
+    <classes>
+      <class name="test.TablePageTest"/>
+    </classes>
+  </test> <!-- Test 4-->
+</suite> <!-- Suite -->

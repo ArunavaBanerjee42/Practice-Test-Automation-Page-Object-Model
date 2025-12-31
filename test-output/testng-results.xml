@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-31T14:18:47 IST" name="Suite" finished-at="2025-12-31T14:21:01 IST" duration-ms="134177">
+    <groups>
+    </groups>
+    <test started-at="2025-12-31T14:18:47 IST" name="HomePageTest" finished-at="2025-12-31T14:19:02 IST" duration-ms="14662">
+      <class name="test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@2a65fe7c]" started-at="2025-12-31T14:18:47 IST" name="setup" finished-at="2025-12-31T14:18:52 IST" duration-ms="4966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.HomePageTest@2a65fe7c]" started-at="2025-12-31T14:18:52 IST" name="init" finished-at="2025-12-31T14:18:52 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="checkHomePageButton()[pri:0, instance:test.HomePageTest@2a65fe7c]" started-at="2025-12-31T14:18:52 IST" name="checkHomePageButton" finished-at="2025-12-31T14:18:57 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomePageButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePageTest@2a65fe7c]" started-at="2025-12-31T14:18:57 IST" name="tearDown" finished-at="2025-12-31T14:19:02 IST" duration-ms="4635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test started-at="2025-12-31T14:19:02 IST" name="PracticePageTest" finished-at="2025-12-31T14:19:43 IST" duration-ms="40455">
+      <class name="test.PracticePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:02 IST" name="setup" finished-at="2025-12-31T14:19:06 IST" duration-ms="3785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:06 IST" name="init" finished-at="2025-12-31T14:19:07 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyTestExceptionsLink()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:07 IST" name="verifyTestExceptionsLink" finished-at="2025-12-31T14:19:11 IST" duration-ms="4899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestExceptionsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:11 IST" name="tearDown" finished-at="2025-12-31T14:19:16 IST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:16 IST" name="setup" finished-at="2025-12-31T14:19:19 IST" duration-ms="3414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:19 IST" name="init" finished-at="2025-12-31T14:19:20 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyTestLoginLink()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:20 IST" name="verifyTestLoginLink" finished-at="2025-12-31T14:19:25 IST" duration-ms="4658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestLoginLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:25 IST" name="tearDown" finished-at="2025-12-31T14:19:29 IST" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:29 IST" name="setup" finished-at="2025-12-31T14:19:33 IST" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:33 IST" name="init" finished-at="2025-12-31T14:19:33 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyTestTableLink()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:33 IST" name="verifyTestTableLink" finished-at="2025-12-31T14:19:38 IST" duration-ms="4940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestTableLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.PracticePageTest@1ff4931d]" started-at="2025-12-31T14:19:38 IST" name="tearDown" finished-at="2025-12-31T14:19:43 IST" duration-ms="4406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.PracticePageTest -->
+    </test> <!-- PracticePageTest -->
+    <test started-at="2025-12-31T14:19:43 IST" name="LoginPageTest" finished-at="2025-12-31T14:20:11 IST" duration-ms="28217">
+      <class name="test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:43 IST" name="setup" finished-at="2025-12-31T14:19:46 IST" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:46 IST" name="init" finished-at="2025-12-31T14:19:47 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="negativePasswordTest()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:47 IST" name="negativePasswordTest" finished-at="2025-12-31T14:19:47 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativePasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:47 IST" name="tearDown" finished-at="2025-12-31T14:19:52 IST" duration-ms="4522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:52 IST" name="setup" finished-at="2025-12-31T14:19:55 IST" duration-ms="3416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:55 IST" name="init" finished-at="2025-12-31T14:19:56 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="negativeUsernameTest()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:56 IST" name="negativeUsernameTest" finished-at="2025-12-31T14:19:57 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:19:57 IST" name="tearDown" finished-at="2025-12-31T14:20:01 IST" duration-ms="4493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:20:01 IST" name="setup" finished-at="2025-12-31T14:20:04 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:20:04 IST" name="init" finished-at="2025-12-31T14:20:05 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:20:05 IST" name="verifyLoginWithValidCredentials" finished-at="2025-12-31T14:20:06 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginPageTest@8297b3a]" started-at="2025-12-31T14:20:06 IST" name="tearDown" finished-at="2025-12-31T14:20:11 IST" duration-ms="4498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test started-at="2025-12-31T14:20:11 IST" name="TablePageTest" finished-at="2025-12-31T14:21:01 IST" duration-ms="50706">
+      <class name="test.TablePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:11 IST" name="setup" finished-at="2025-12-31T14:20:15 IST" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:15 IST" name="init" finished-at="2025-12-31T14:20:16 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLanguageFilter()[pri:1, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:16 IST" name="verifyLanguageFilter" finished-at="2025-12-31T14:20:20 IST" duration-ms="4805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguageFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:20 IST" name="tearDown" finished-at="2025-12-31T14:20:25 IST" duration-ms="4446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:25 IST" name="setup" finished-at="2025-12-31T14:20:28 IST" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:28 IST" name="init" finished-at="2025-12-31T14:20:29 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyBeginnerLevelOnly()[pri:2, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:29 IST" name="verifyBeginnerLevelOnly" finished-at="2025-12-31T14:20:34 IST" duration-ms="4948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBeginnerLevelOnly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:34 IST" name="tearDown" finished-at="2025-12-31T14:20:38 IST" duration-ms="4483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:38 IST" name="setup" finished-at="2025-12-31T14:20:42 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:42 IST" name="init" finished-at="2025-12-31T14:20:43 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyMinEnrollments()[pri:3, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:43 IST" name="verifyMinEnrollments" finished-at="2025-12-31T14:20:47 IST" duration-ms="4791" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: ""]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: ""
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:672)
+at java.base/java.lang.Integer.parseInt(Integer.java:778)
+at pages.TablePage.areAllEnrollmentsAtLeast(TablePage.java:201)
+at test.TablePageTest.verifyMinEnrollments(TablePageTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMinEnrollments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:47 IST" name="tearDown" finished-at="2025-12-31T14:20:52 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:52 IST" name="setup" finished-at="2025-12-31T14:20:55 IST" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:55 IST" name="init" finished-at="2025-12-31T14:20:56 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyNoResultsState()[pri:4, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:56 IST" name="verifyNoResultsState" finished-at="2025-12-31T14:20:57 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoResultsState -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TablePageTest@7770f470]" started-at="2025-12-31T14:20:57 IST" name="tearDown" finished-at="2025-12-31T14:21:01 IST" duration-ms="4519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TablePageTest -->
+    </test> <!-- TablePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
